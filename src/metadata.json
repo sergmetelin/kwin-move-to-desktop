@@ -1,0 +1,13 @@
+{
+    "KPlugin": {
+        "Name": "Move Window and Switch to Desktop",
+        "Description": "Moves the active window to a virtual desktop (1-9) and switches focus to it, like Hyprland's movetoworkspace.",
+        "Icon": "preferences-system-windows",
+        "Id": "movewindowandswitchdesktop",
+        "Version": "1.1",
+        "License": "MIT"
+    },
+    "X-Plasma-API": "javascript",
+    "X-Plasma-MainScript": "code/main.js",
+    "KPackageStructure": "KWin/Script"
+}
